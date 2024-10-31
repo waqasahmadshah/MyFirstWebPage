@@ -1,2 +1,3 @@
 # waqas ahmad shah
- add index file
+ add index file<br>
+ index file update some tags add like Paragraph, heading, imges, anchor, brea line, ul, ol, etc
