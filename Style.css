@@ -10,3 +10,7 @@ body{
 table{
     background-color: darkgrey;
 }
+input{
+    width: 200px;
+    height: 25px;
+}
