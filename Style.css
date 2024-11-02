@@ -11,6 +11,7 @@ table{
     background-color: darkgrey;
 }
 input{
+    border: 2px solid black;
     width: 200px;
     height: 25px;
 }
