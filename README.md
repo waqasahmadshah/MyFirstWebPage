@@ -5,3 +5,4 @@
  add Registration Form
  then add Table
  and push on git hub Repository
+ link with submit button and add Home file
