@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+    .id-card-back {
+            width: 400px;
+            /* height: 230px; */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            background-color: white;
+            /* padding: 15px; */
+            font-size: 0.95em;
+            line-height: 1.5;
+    }
+
+.header {
+
+    background-color: #800000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 0.9em;
+}
+
+.info-section {
+    padding: 10px 5px;
+    color: #333;
+}
+
+.info-section p {
+    margin: 8px 0;
+}
+
+.info-section span {
+    font-weight: bold;
+    color: #333;
+}
+
+.highlight {
+    color: #d80000; /* Red for "Cell No" */
+}
+
+.footer {
+    background-color: #800000;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer p {
+    color:white;
+}
+
+.footer span {
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="id-card-back">
+        <div class="header">
+            <h1>Government Degree College</h1>
+            <p>Ekka Ghund District Mohmand</p>
+        </div>
+        <div class="info-section">
+            <p>Father's Name: <span>Liaqat Ali Shah</span></p>
+            <p>Date of Birth: <span>01-06-2003</span> <span class="highlight">Cell No: 0320-9955837</span></p>
+            <p>Village: <span>Saidona Qilla Kangra</span></p>
+            <p>Tehsil: <span>Shabqadar</span> &nbsp; District: <span>Charsadda</span></p>
+        </div>
+        <div class="footer">
+            <p style="text-align: left;">Issue Date: <span>01-09-2024</span> &nbsp; Valid Upto: <span>30-06-2025</span></p>
+        </div>
+    </div>
+</body>
+</html>

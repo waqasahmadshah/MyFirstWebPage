@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0;
+            font-family: arial, sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .id-card{
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+            overflow: hidden;
+            background-color: white;
+        }
+        .header{
+            background-color: #800000;
+            color:white;
+            text-align: center;
+            padding: 10px;
+        }
+        .header h1{
+            font-size: 1.2em;
+        }
+        .header p{
+            font-size: 0.9em;
+        }
+        .profile-section{
+            display: inline-block;
+            padding: 15px;
+        }
+        .profile-pic{
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+            margin-right: 15px;
+        }
+        .info{
+            text-align: center;
+            display: inline-block;
+            font-size: 0.9em;
+        }
+        .info p{
+            margin-bottom: 5px;
+        }
+        .info strong{
+            color:#333;
+        }
+        .footer{
+            display: inline-block;
+            justify-content: space-between;
+            align-items: center;
+            padding:10px 15px;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ddd;
+        }
+        .logo{
+            text-decoration: solid;
+            text-align: justify;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+        }
+        .footer p{
+            margin: 0;
+            font-size: 0.8em;
+            color: #333;
+        }
+        .signature{
+            text-align: right;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="id-card">
+        <div class="header">
+            <h1>GOVERNMENT DEGREE COLLEGE</h1>
+            <p>Ekka Ghund District Mohmand</p>
+        </div>
+        <div class="profile-section">
+            <img src="/WhatsApp Image 2024-10-23 at 9.23.16 PM.jpeg" alt="profile-picture" class="profile-pic">
+        </div>
+        <div class="info">
+            <p><strong>Student Identity Card</strong></p>
+            <p><strong>Waqas Ahmad Shah</strong></p>
+            <p><strong>7th Semester</strong></p>
+            <p><strong>Computer Science</strong></p>
+        </div>
+        <div class="footer">
+            <img src="/download (3).jfif" alt="" class="logo">
+            <p>Chief Proctor</p>
+            <p class="signature">signature</p>
+        </div>
+        <div style="background-color: #800000; height: inherit;"></div>
+    </div>
+</body>
+</html>
