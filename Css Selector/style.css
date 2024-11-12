@@ -1,0 +1,26 @@
+/* Universal Selector */
+*{
+    background-color: black;
+    color:whitesmoke;
+}
+/* element Selector */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: green;
+}
+/* class selector */
+.head{
+    font-size: 3rem;
+}
+
+/* id selector */
+#med{
+    font-size: 2rem;
+
+}
+/* group selector */
+p,h1{
+    background-color: aqua;
+}
