@@ -1,0 +1,12 @@
+.box{
+    text-align: center;
+}
+.boxm{
+    /* shorthand property */
+    border: 2px solid green;
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 5%;
+}
