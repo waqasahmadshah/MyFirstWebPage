@@ -23,7 +23,6 @@
 #box1{
     /* order: 3; */
     flex-grow: 1;
-    flex-shrink: 4;
 }
 #box2{
     flex-grow: 1;
